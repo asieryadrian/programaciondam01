@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+public class EjercicioString9 {
+
+	/**
+	 * @param args
+	 * @throws InterruptedException 
+	 */
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		Scanner teclado=new Scanner(System.in);
+		System.out.println("Bienvenido, introduzca el codigo de la persona segun el orden indicado");
+		Thread.sleep(1000);
+		System.out.println("Introduzca el año (tiene que ser entre 1990 y 1995):");
+		int año=teclado.nextInt();
+		while (año < 1990||año > 1995) {
+			System.out.println("Porfavor introduzca un año valido.");
+			año=teclado.nextInt();
+		}
+		System.out.println("Intraduzca el genero de la persona a la que pertenece el codigo (H o M):");
+		String genero=teclado.next();
+		while (!genero.equals("H")||genero.equals("M")||genero.equals("h")||genero.equals("m")) {
+			System.out.println("Porfavor introduze una letra correcta.");
+		}
+	}
+
+}

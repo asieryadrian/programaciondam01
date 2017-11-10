@@ -1,0 +1,29 @@
+/**
+ * 
+ */
+package siete;
+
+import java.util.Scanner;
+
+/**
+ * @author usuario
+ *
+ */
+public class siete {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado = new Scanner(System.in);
+		String frase ="";
+		int contador = 0;
+		while (frase!="fin") {
+			System.out.println(contador);
+			contador ++;
+		}
+		
+			
+	}
+}

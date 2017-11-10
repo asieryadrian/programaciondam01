@@ -1,0 +1,31 @@
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+public class CuarentayUno {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int matriz[][][]=new int[5][10][20];
+		int sumalumnos=0;
+		int sumacurso=0;
+		int sumacentro=0;
+		int mediacurso=0;
+		int mediacentro=0;
+		for (int centro = 0; centro < matriz.length; centro++) {
+			for (int curso = 0; curso < matriz[0].length; curso++) {
+				for (int alumno = 0; alumno < matriz[0][0].length; alumno++) {
+				}
+			}
+		}
+		
+	}
+
+}

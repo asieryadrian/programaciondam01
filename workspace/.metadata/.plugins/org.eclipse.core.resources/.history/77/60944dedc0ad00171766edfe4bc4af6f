@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package sexto;
+
+/**
+ * @author usuario
+ *
+ */
+public class sexto {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	int contador = 1;
+	int numero = 0;
+	while (contador>numero) {
+		System.out.println(numero);
+		contador ++;
+	}
+
+	}
+
+}

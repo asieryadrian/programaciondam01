@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+public class TreintayOcho {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado=new Scanner(System.in);
+		int matriz[][]=new int[4][5];
+		for (int clases = 0; clases < matriz.length; clases++) {
+			for (int alumnos = 0; alumnos < matriz[0].length; alumnos++) {
+//				matriz[clases][alumnos]=(int)(Math.random()*10+1);
+				System.out.println("Introducir nota del alumno:");
+				matriz[clases][alumnos]=teclado.nextInt();
+			}	
+		}
+		for (int clases = 0; clases < matriz.length; clases++) {
+			for (int alumnos = 0; alumnos < matriz[0].length; alumnos++) {
+				System.out.print(matriz[clases][alumnos]+"\t");
+			}
+			System.out.println();
+		}
+	}
+}
+
+

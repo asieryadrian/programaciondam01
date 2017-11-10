@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+public class Treintaycuatro {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stu
+		Scanner teclado=new Scanner(System.in);
+		System.out.println("Asignaturas:");
+		int numero[]=new int[20];
+		int asignatura=1;
+		
+	}
+
+}

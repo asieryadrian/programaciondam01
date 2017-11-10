@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+public class Treintayuno {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado=new Scanner(System.in);
+		System.out.println("Suma, resta, multiplicacion y division de los numeros");
+		int numero1=teclado.nextInt();
+		int numero2=teclado.nextInt();
+		int contador=0;
+		int solucionsuma=0;
+		int solucionresta=0;
+		int solucionmult=0;
+		int soluciondiv=0;
+		while (contador<1) {
+			System.out.println("Porfavor el numero 1 sea mayor que el numero 2. ");
+			if (numero2<numero1) {
+				numero1=teclado.nextInt();
+				numero2=teclado.nextInt();
+				contador++;
+			}
+		}
+		solucionsuma=numero1+numero2;
+			System.out.println("La suma del numero "+numero1+" y el "+numero2+" es "+solucionsuma);
+		
+		
+	}
+
+}

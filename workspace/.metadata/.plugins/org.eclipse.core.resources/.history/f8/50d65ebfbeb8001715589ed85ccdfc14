@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+public class Treintaycuatro {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stu
+		Scanner teclado=new Scanner(System.in);
+		int numero=teclado.nextInt();
+		int asignatura=1;
+		System.out.println("Asignaturas:");
+		while (asignatura<=10) {
+			System.out.println(asignatura);
+			asignatura++;
+		}
+	}
+
+}

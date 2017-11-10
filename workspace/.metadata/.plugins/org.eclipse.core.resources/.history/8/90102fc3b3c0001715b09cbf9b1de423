@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+public class EjercicioString2 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado=new Scanner(System.in);
+		String frase=teclado.nextLine();
+		while (frase.length()>80) {
+			System.out.println("Escriba una frase que tenga menos de 80 caracteres.");
+		}
+		int contadorMayus=0;
+		int contadorMinus=0;
+		for (int i = 0; i < frase.length(); i++) {
+			if ("ABCDEFGHIJKLMNÑOPQRSTUVWXYZ".indexOf(frase.substring(i, i+1))!=-1) {
+			
+			}
+			if ("abcdefghijklmnñopqrstuvwxyz".indexOf(frase.substring(i, i+1))!=-1){
+				
+			}
+		}
+		System.out.println("En la frase hay "+contadorMayus+" mayusculas y "+contadorMinus+" minusculas.");
+	}
+
+}

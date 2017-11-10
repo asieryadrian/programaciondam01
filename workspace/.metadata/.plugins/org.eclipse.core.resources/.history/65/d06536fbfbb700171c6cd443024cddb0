@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+public class Treintaydos {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado=new Scanner(System.in);
+		int numero=teclado.nextInt();
+		int contador=0;
+		int resultado=0;
+		while (numero%2==0) {
+			System.out.println("El numero "+numero+" es par.");
+			System.out.println("Tabla del numero "+numero);
+			resultado=numero*contador;
+			System.out.println(numero+"*"+contador+"="+resultado);
+			contador++;
+		}
+		
+		
+	}
+
+}

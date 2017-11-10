@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+public class EjercicioString1 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado=new Scanner(System.in);
+		String frase=teclado.nextLine();
+		System.out.println("Introduzca una frase:");
+		while (frase.length()>80) {
+			System.out.println("Escriba una frase que tenga menos de 80 caracteres.");
+			frase=teclado.nextLine();
+		}
+		int posicion=1;
+		while(posicion <=frase.length()){
+		System.out.println(frase.substring(0,posicion));
+		posicion++;
+		}
+	}
+}

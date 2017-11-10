@@ -1,0 +1,46 @@
+import java.util.Scanner;
+
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+public class Treintaydos {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado=new Scanner(System.in);
+		int numero=teclado.nextInt();
+		int contador=0;
+		int resultado=0;
+		int posicion=2;
+		while (posicion<numero) {
+			if (numero%posicion==0) {
+			contador++;
+		}
+		posicion++;
+	}
+		if (contador==0) {
+			System.out.println("El "+numero+" es primo.");
+		} else {
+			System.out.println("Lo siento el "+numero+" no es primo.");
+		}
+		System.out.println("A continuacion se representara la tabla del numero "+numero+":");
+		while (contador<=10) {
+			
+			resultado=numero*contador;
+			System.out.println(numero+"*"+contador+"="+resultado);
+			contador++;
+		}
+		
+		
+		
+	}
+
+}

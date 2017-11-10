@@ -1,0 +1,24 @@
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+public class Treintaycuatro {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int asignatura=1;
+		System.out.println("Asignaturas:");
+		while (asignatura<=10) {
+			System.out.println(asignatura);
+			asignatura++;
+		}
+	}
+
+}

@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+public class EjercicioString8 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado=new Scanner(System.in);
+		System.out.println("Introduzca el texto que desea codificar:");
+		String frase=teclado.nextLine();
+		System.out.println("Primero convierta el texto todo a MAYUSCULAS. Escriba m para hacerlo: ");
+		String opcion=teclado.nextLine();
+		while (!opcion.equals("m")) {
+			System.out.println("Porfavor introduzca una m o M.");
+			opcion=teclado.nextLine();
+		}
+		if (opcion.equals("m")) {
+			System.out.println(frase.toUpperCase());
+		}
+		if (opcion.equals("M")) {
+			System.out.println(frase.toUpperCase());
+		}
+		System.out.println("Vuelva a pulsar enter para empezar la codificacion:");
+	}
+
+}
