@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+public class EjercicioString9 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado=new Scanner(System.in);
+		System.out.println("Bienvenido al buscador de codigos.");
+		System.out.println("Para empezar introduzca el año de la persona a la que pertenece el codigo (tiene que ser entre 1990 y 1995");
+		int año=teclado.nextInt();
+		if (!(año>1990||año<1995)) {
+				System.out.println("Asegurese de que el año introducido cumple los requisitos citado anteriormente.");
+			}
+		while (año>1990||año<1995) {
+			
+				
+		}
+	}
+
+}
