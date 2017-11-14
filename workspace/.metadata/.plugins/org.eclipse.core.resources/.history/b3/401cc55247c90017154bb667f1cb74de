@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+public class EjericicoString9B {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner texdlado=new Scanner(System.in);
+		System.out.println("Bienvenido al buscador de codigos.");
+		System.out.println("Introduzca un codigo que contenga 8 digitos que cumplan los siguientes requisitos:");
+		System.out.println("   -Los 4 primeros digitos deben ser un año comprendido entre 1990 y 1995.");
+		System.out.println("   -El quinto digito deber ser H si es hombre o M si es mujer.");
+		System.out.println("   -El sexto digito el curso al que pertenece, primero(1) o segundo(2).");
+		System.out.println("   -Por ultimo los dos ultimos digitos deben ser aleatorios, ya sean numeros o letras.");
+	}
+
+}
