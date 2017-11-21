@@ -16,6 +16,14 @@ public class EjercicioString9 {
 	 */
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
+		/*Escribir un programa que lea códigos de personas de 8 caracteres de modo que los cuatro primeros 
+		 * sean numéricos y contenidos entre 1990-1995 (un año), el quinto carácter sea solo (H ó M) sexo, el 
+		 * sexto un numero que representa el curso 1 ó 2 y los caracteres séptimo y octavo pueden tener 
+		 * cualquier valor.Ddeben rechazarse los códigos que no cumplan estas condiciones, la finalización de 
+		 * entrada de códigos se produce cuando se introduce el código “00000000”. Al final el programa debe 
+		 * sacar un informe indicando cuántos hombres y mujeres hay matriculados en primero y segundo y 
+		 * cuántos códigos correctos han sido leídos.
+		 */
 		Scanner teclado=new Scanner(System.in);
 		System.out.println("Bienvenido al buscador de codigos.");
 		System.out.println("Para empezar introduzca el año de la persona a la que pertenece el codigo (tiene que ser entre 1990 y 1995).");

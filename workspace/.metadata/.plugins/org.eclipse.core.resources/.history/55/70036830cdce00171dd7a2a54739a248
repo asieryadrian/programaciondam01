@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+public class EjercicioString1 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado=new Scanner(System.in);
+		String frase=teclado.nextLine();
+		System.out.println("Introduce una cadena de letras: ");
+		while (frase.equals("1234567890")) {
+			System.out.println("Losiento no puede haber ningun numero, solo letras porfavor.");
+			frase=teclado.nextLine();
+		}
+		
+	}
+
+}

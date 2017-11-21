@@ -15,6 +15,9 @@ public class EjercicioString6 {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		/*Leer una frase por teclado (máximo 80) y a continuación escribir cuantas vocales, consonantes y caracteres 
+		 * numéricos posee.
+		 */
 		Scanner teclado=new Scanner(System.in);
 		String frase=teclado.nextLine();
 		while (frase.length()>80) {

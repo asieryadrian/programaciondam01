@@ -15,6 +15,15 @@ public class EjercicioString1 {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		/*Leer una frase de máximo 80 caracteres y escribirla progresivamente es decir si la frase es: “ciervo”,
+		 * el programa debe imprimir.
+			c
+			ci
+			cie
+			cier
+			cierv
+			ciervo
+		 */
 		Scanner teclado=new Scanner(System.in);
 		String frase=teclado.nextLine();
 		System.out.println("Introduzca una frase:");

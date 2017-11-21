@@ -13,6 +13,8 @@ public class Dieciseis {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		/*Imprimir diez veces la serie de números del 1 al 10.
+		 */
 		int contador=1;
 		int contadorseries=1;
 		while (contadorseries<=10) {

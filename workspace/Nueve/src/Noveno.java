@@ -14,7 +14,9 @@ public class Noveno {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub 
+		/* Introducir un numero por teclado. Que nos diga si es positivo o negativo.
+		 */
 		Scanner teclado=new Scanner(System.in);
 		float numero;
 		numero = teclado.nextFloat();

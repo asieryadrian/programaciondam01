@@ -16,6 +16,9 @@ public class sexto {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		/* Hacer un pseudocódigo que imprima todos los números naturales que hay desde la unidad hasta 
+		 * un numero que introducimos por teclado.
+		 */
 		Scanner teclado = new Scanner(System.in);
 		int entero = teclado.nextInt();
 		int a = 0;

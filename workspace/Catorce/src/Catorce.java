@@ -15,6 +15,9 @@ public class Catorce {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		/*Hacer un pseudocódigo que imprima el mayor y el menor de una serie de cinco números que vamos
+		 * introduciendo por teclado.
+		 */
 		Scanner teclado=new Scanner(System.in);
 		int numero=teclado.nextInt();
 		int mayor=numero;

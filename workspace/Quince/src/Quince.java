@@ -15,6 +15,10 @@ public class Quince {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		/*Introducir dos números por teclado. Imprimir los números naturales que hay entre ambos números 
+		 * empezando por el m s pequeño, contar cuantos hay y cuántos de ellos son pares. Calcular la suma 
+		 * de los impares.
+		 */
 		Scanner teclado=new Scanner(System.in);
 		int numero1=teclado.nextInt();
 		int numero2=teclado.nextInt();

@@ -15,6 +15,8 @@ public class Treintaycinco {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		/*Usando el segundo ejemplo, hacer un programa que busque una nota en el vector.
+		 */
 		System.out.println("Introduce las 10 notas");
 		Scanner teclado=new Scanner(System.in);
 		int asignatura[]=new int[10];

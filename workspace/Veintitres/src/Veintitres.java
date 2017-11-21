@@ -13,7 +13,9 @@ public class Veintitres {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+		/* Hacer un pseudocódigo que imprima los números del 0 al 100, controlando las filas y 
+		 * las columnas.
+		 */
 		int contador=0;
 		int filas=0;
 		int columnas=0;

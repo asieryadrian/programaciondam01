@@ -15,6 +15,9 @@ public class EjericicioString4 {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		/*Leer una cadena de hasta 80 caracteres y pasarla en función de una variable de opción a mayúsculas
+		 * ó a minúsculas e imprimir la cadena resultante.
+		 */
 		Scanner teclado=new Scanner(System.in);
 		System.out.println("Introduzca una frase:");
 		String frase=teclado.nextLine();
@@ -25,7 +28,7 @@ public class EjericicioString4 {
 		}
 		System.out.println("Si quieres el texto en MAYUSCULAS pulsa (M) si lo quieres en minusculas pulsa (m)");
 		String opcion=teclado.nextLine();
-		while (!(opcion.equals("M") || opcion.equals("M"))) {
+		while (!(opcion.equals("m") || opcion.equals("M"))) {
 		System.out.println("Introduzca M para MAYUSCULAS y m para minusculas");
 		opcion=teclado.nextLine();
 		}

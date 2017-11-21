@@ -15,9 +15,12 @@ public class EjercicioString2 {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		/*Dada una frase de no más de 80 caracteres hacer un programa que busque cuántas mayúsculas y 
+		 * minúsculas tiene y lo imprima.
+		 */
 		Scanner teclado=new Scanner(System.in);
-		String frase=teclado.nextLine();
 		System.out.println("Introduzca una frase:");
+		String frase=teclado.nextLine();
 		while (frase.length()>80) {
 			System.out.println("Escriba una frase que tenga menos de 80 caracteres.");
 			frase=teclado.nextLine();

@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+public class EjercicioString1 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado=new Scanner(System.in);
+		System.out.println("Introduce una cadena de letras: ");
+		String frase=teclado.nextLine();
+		frase=frase.toLowerCase();
+		System.out.println(frase);
+		System.out.println("A continuacion, que letras de las que ha escrito quiere convertir a MAYUSCULAS: ");
+		String letra=teclado.nextLine();
+		frase=frase.replaceAll(letra, letra.toUpperCase());
+		System.out.println(frase);
+		
+		
+	}
+
+}

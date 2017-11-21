@@ -13,6 +13,8 @@ public class Trece {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		/*Imprimir y contar los números que son múltiplos de 2 o de 3 que hay entre 1 y 100.
+		 */
 		int posicion= 1;
 		int contadorm2=2;
 		int contadorm3=3;

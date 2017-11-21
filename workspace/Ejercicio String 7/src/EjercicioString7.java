@@ -15,6 +15,9 @@ public class EjercicioString7 {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		/*Leer una frase por teclado y escribir a continuación cuantas mayúsculas, minúsculas y números 
+		 * contiene.
+		 */
 		Scanner teclado=new Scanner(System.in);
 		String frase=teclado.nextLine();
 		int contadorMayus=0;

@@ -13,6 +13,10 @@ public class CuarentayUno {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		/*Se dispone de una tabla de 5 páginas, 10 filas y 20 columnas, que se refieren al centro, al curso
+		 *y al número de alumnos de un colegio respectivamente. Imprimir la nota media por curso y la nota
+		 *media máxima y su centro de pertenencia.
+		 */
 		int matriz[][][]=new int[5][10][20];
 		float sumalumnos=0;
 		float sumacurso=0;

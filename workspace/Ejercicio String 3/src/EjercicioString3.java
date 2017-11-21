@@ -15,6 +15,9 @@ public class EjercicioString3 {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		/*Programa que lea una frase y una palabra y que nos diga la posición de dicha palabra en la frase
+		 * y si no la encuentra devuelva un cero.
+		 */
 		Scanner teclado=new Scanner(System.in);
 		System.out.println("Intruduzca una frase:");
 		String frase=teclado.nextLine();

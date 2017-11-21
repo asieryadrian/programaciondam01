@@ -15,6 +15,9 @@ public class Diecisite {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		/*Imprimir, contar y sumar los múltiplos de 2 que hay entre una serie de números, tal que el segundo
+		 * sea mayor o igual que el primero. 
+		 */
 		Scanner teclado=new Scanner(System.in);
 		int numero1=teclado.nextInt();
 		int numero2=teclado.nextInt();

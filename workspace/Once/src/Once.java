@@ -15,6 +15,8 @@ public class Once {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		/*Imprimir y contar los múltiplos de 3 desde la unidad hasta un numero que introducimos por teclado.
+		 */
 		Scanner teclado=new Scanner(System.in);
 		int numero=teclado.nextInt();
 		int posicion=1;

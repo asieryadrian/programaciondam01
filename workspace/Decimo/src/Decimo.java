@@ -15,6 +15,9 @@ public class Decimo {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		/*Introducir un numero por teclado. Que nos diga si es par o impar.
+		 */
+		 
 		Scanner teclado= new Scanner(System.in);
 		int numero;
 		numero=teclado.nextInt();

@@ -15,6 +15,8 @@ public class Veinticuatro {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		/* Comprobar si un número mayor o igual que la unidad es primo.
+		 */
 		Scanner teclado=new Scanner(System.in);
 		int numero=teclado.nextInt();
 		int contador=0;

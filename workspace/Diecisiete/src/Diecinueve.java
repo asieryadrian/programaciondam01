@@ -16,6 +16,8 @@ public class Diecinueve {
 	 */
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
+		/*Hacer un pseudocódigo que simule el funcionamiento de un reloj digital y que permita ponerlo en hora.
+		 */
 		Scanner teclado=new Scanner(System.in);
 		System.out.println("Hora:");
 		int horas=teclado.nextInt();

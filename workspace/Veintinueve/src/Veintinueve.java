@@ -13,6 +13,8 @@ public class Veintinueve {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		/* Simular cien tiradas de dos dados y contar las veces que entre los dos suman 10
+		 */
 		int dado1=(int)(Math.random()*6)+1;
 		int dado2=(int)(Math.random()*6)+1;
 		int lanzamiento=1;

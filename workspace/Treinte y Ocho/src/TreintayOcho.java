@@ -15,6 +15,9 @@ public class TreintayOcho {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		/*Cargar en una matriz las notas de los alumnos de un colegio en función del número de cursos (filas) 
+		 *y del número de alumnos por curso (columnas).
+		 */
 		Scanner teclado=new Scanner(System.in);
 		int matriz[][]=new int[4][5];
 		for (int clases = 0; clases < matriz.length; clases++) {

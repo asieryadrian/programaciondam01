@@ -15,6 +15,9 @@ public class EjercicioString5 {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		/*Leer una frase por teclado (máximo 80 car) y construir otras dos cadenas de forma que una contenga
+		 *  los caracteres en posición par y la otra los caracteres en posición impar.
+		 */
 		Scanner teclado=new Scanner(System.in);
 		String frase=teclado.nextLine();
 		while (frase.length()>80) {

@@ -15,6 +15,9 @@ public class Treintayuno {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		/*Introducir dos números por teclado y mediante un menú, calcule su suma, su resta, su 
+		 * multiplicación o su división. 
+		 */
 		Scanner teclado=new Scanner(System.in);
 		System.out.println("Suma, resta, multiplicacion y division de los numeros");
 		int numero1=teclado.nextInt();
